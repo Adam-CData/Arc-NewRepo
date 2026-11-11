@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "ports": [
+    {
+      "connectorId": "Script1",
+      "connectorType": "Script",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 536,
+          "posY": 277,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "JSON1"
+      ]
+    },
+    {
+      "connectorId": "JSON1",
+      "connectorType": "JSON",
+      "nodes": [
+        {
+          "posX": 1118.9448852661776,
+          "posY": 289.80250664155335,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "REST1"
+      ]
+    },
+    {
+      "connectorId": "File28",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 2057.477604354761,
+          "posY": 317.28278701362973,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "REST1",
+      "connectorType": "RESTV2",
+      "nodes": [
+        {
+          "posX": 1634.159945149589,
+          "posY": 324.45766259337853,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "File28"
+      ]
+    }
+  ],
+  "views": [
+    {
+      "name": "Default",
+      "zoom": 1,
+      "zoomOrigin": "50% 50%",
+      "posX": 0,
+      "posY": 0,
+      "snapshot": ""
+    }
+  ],
+  "apis": [
+  ],
+  "notes": [
+  ],
+  "snapshot": {
+    "file": "file:\/\/flow.png"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Fable": {
+    "Author": { "@alive": "false", "#text": "Aesop" },
+    "Title": "Tortoise and the Hare",
+    "Characters": {
+      "Character": [
+        { "@id": "1", "@slow": "true", "#value": "Tortoise" },
+        { "@id": "2", "@slow": "hardly", "#text": "Hare" }
+      ]
+    },
+    "Moral": "Persistence over speed"
+  }
+}

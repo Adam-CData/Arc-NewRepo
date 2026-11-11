@@ -1,0 +1,485 @@
+{
+  "version": 2,
+  "ports": [
+    {
+      "connectorId": "JSON2",
+      "connectorType": "JSON",
+      "nodes": [
+        {
+          "posX": 1113.2482398387963,
+          "posY": 973.3847302607378,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "CSV1",
+      "connectorType": "CSV",
+      "nodes": [
+        {
+          "posX": -347.8292460603407,
+          "posY": 2800.5102288697794,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "Discard1"
+      ]
+    },
+    {
+      "connectorId": "Discard1",
+      "connectorType": "Discard",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 117.52608186315942,
+          "posY": 3088.2119994968702,
+          "width": 295
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "BatchCreate3",
+      "connectorType": "BatchCreate",
+      "nodes": [
+        {
+          "posX": -2293.9416594975296,
+          "posY": 722.4328967604607,
+          "width": 295
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "BatchCreate2",
+      "connectorType": "BatchCreate",
+      "nodes": [
+        {
+          "posX": -173.82349095629806,
+          "posY": 1321.2754084087992,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "BatchMerge1"
+      ]
+    },
+    {
+      "connectorId": "File10",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 409.5836382059905,
+          "posY": 1657.921482474935,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "BatchCreate1",
+      "connectorType": "BatchCreate",
+      "nodes": [
+        {
+          "posX": -137.27583110622717,
+          "posY": 875.4239594041749,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "File5"
+      ]
+    },
+    {
+      "connectorId": "File11",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 499.0253243769391,
+          "posY": 1964.3068329754187,
+          "width": 295
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "File12",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": -701.6479588726504,
+          "posY": 2186.20013441699,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "Copy1"
+      ]
+    },
+    {
+      "connectorId": "File13",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 375.2437576002681,
+          "posY": 2213.81274253168,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "File14",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 386.28880084614417,
+          "posY": 2466.0078966458505,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "Encoding1",
+      "connectorType": "Encoding",
+      "nodes": [
+        {
+          "posX": -414.1539587877006,
+          "posY": 3521.5685188949333,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "File18"
+      ]
+    },
+    {
+      "connectorId": "AS43",
+      "connectorType": "AS4V2",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": -2560.803281995823,
+          "posY": 889.8849169183213,
+          "width": 295
+        },
+        {
+          "style": "receiver",
+          "posX": -2160.803281995823,
+          "posY": 889.8849169183213,
+          "width": 295
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "AS23",
+      "connectorType": "AS2",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": -2374.61721235266,
+          "posY": 728.6633876288097,
+          "width": 295
+        },
+        {
+          "style": "receiver",
+          "posX": -1974.6172123526599,
+          "posY": 728.6633876288097,
+          "width": 295
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "File15",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": -826.825115659246,
+          "posY": 2716.3622102190416,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "CSV1"
+      ]
+    },
+    {
+      "connectorId": "File16",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 183.7963413384159,
+          "posY": 2758.7015426615667,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "File17",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": -977.4863937735862,
+          "posY": 3486.4518285926797,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "Encoding1"
+      ]
+    },
+    {
+      "connectorId": "File18",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 144.39056618445667,
+          "posY": 3560.7347508289563,
+          "width": 295
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "AES1",
+      "connectorType": "AES",
+      "nodes": [
+        {
+          "posX": 409.4050335289984,
+          "posY": 137.43781473388572,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "File2"
+      ]
+    },
+    {
+      "connectorId": "BatchMerge1",
+      "connectorType": "BatchMerge",
+      "nodes": [
+        {
+          "posX": 280.7041390276664,
+          "posY": 1283.5146514562853,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "File8"
+      ]
+    },
+    {
+      "connectorId": "File8",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 704.463744828101,
+          "posY": 1303.0943032094406,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "File9",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": -677.0376980410665,
+          "posY": 1705.496847459482,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "Branch1"
+      ]
+    },
+    {
+      "connectorId": "File6",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": -611.4671792500567,
+          "posY": 811.4418066583775,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "BatchCreate1"
+      ]
+    },
+    {
+      "connectorId": "File7",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": -640.9380399244338,
+          "posY": 1244.3553479499747,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "BatchCreate2"
+      ]
+    },
+    {
+      "connectorId": "File4",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": -64.34502659890052,
+          "posY": 506.1878615352847,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "API1"
+      ]
+    },
+    {
+      "connectorId": "File5",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 370.435162658251,
+          "posY": 843.5272200495514,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "File2",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 889.4323935482602,
+          "posY": 148.4447777507765,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "File3",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": -115.59503310350178,
+          "posY": 109.93781124361197,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "AES1"
+      ]
+    },
+    {
+      "connectorId": "API1",
+      "connectorType": "API",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 401.90503257710543,
+          "posY": 527.4378642323144,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "Branch1",
+      "connectorType": "Branch",
+      "nodes": [
+        {
+          "posX": -132.775522617847,
+          "posY": 1711.2058912576279,
+          "width": 320
+        }
+      ],
+      "connections": [
+        {
+          "dest": "File10",
+          "output": "1"
+        },
+        {
+          "dest": "File11",
+          "output": "elsesendtoport"
+        }
+      ]
+    },
+    {
+      "connectorId": "Copy1",
+      "connectorType": "Copy",
+      "nodes": [
+        {
+          "posX": -210.14353443116437,
+          "posY": 2175.1550911711142,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "File13",
+        {
+          "dest": "File14",
+          "output": "copytoport"
+        }
+      ]
+    }
+  ],
+  "views": [
+    {
+      "name": "Default",
+      "zoom": 1,
+      "zoomOrigin": "50% 50%",
+      "posX": 0,
+      "posY": 0,
+      "snapshot": ""
+    }
+  ],
+  "apis": [
+  ],
+  "notes": [
+  ],
+  "snapshot": {
+    "file": "file:\/\/flow.png"
+  }
+}

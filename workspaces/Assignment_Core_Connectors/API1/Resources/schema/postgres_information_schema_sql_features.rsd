@@ -1,0 +1,28 @@
+<arc:script xmlns:arc="http://arc.cdata.com/ns/arcscript/2">
+
+  <arc:info title="[postgres].[information_schema].[sql_features]" connection="Connection" restrictUser="*" description="Create, Update, Query, and Delete [postgres].[information_schema].[sql_features]">
+  	<!-- Column definitions -->
+    <attr name="comments" key="false" type="string" columnsize="2147483647" isNullable="true" readonly="false" desc="" />
+    <attr name="feature_id" key="false" type="string" columnsize="2147483647" isNullable="true" readonly="false" desc="" />
+    <attr name="feature_name" key="false" type="string" columnsize="2147483647" isNullable="true" readonly="false" desc="" />
+    <attr name="is_supported" key="false" type="string" columnsize="2147483647" isNullable="true" readonly="false" desc="" />
+    <attr name="is_verified_by" key="false" type="string" columnsize="2147483647" isNullable="true" readonly="false" desc="" />
+    <attr name="sub_feature_id" key="false" type="string" columnsize="2147483647" isNullable="true" readonly="false" desc="" />
+    <attr name="sub_feature_name" key="false" type="string" columnsize="2147483647" isNullable="true" readonly="false" desc="" />
+  </arc:info>
+
+	<!-- Operation definitions -->
+  <arc:script method="GET">
+    <arc:push op="apiSelect" />
+  </arc:script>
+  <arc:script method="POST">
+    <arc:push op="apiInsert" />
+  </arc:script>
+  <arc:script method="PUT,MERGE,PATCH">
+    <arc:push op="apiUpdate" />
+  </arc:script>
+  <arc:script method="DELETE">
+    <arc:push op="apiDelete" />
+  </arc:script>
+
+</arc:script>

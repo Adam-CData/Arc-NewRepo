@@ -1,0 +1,115 @@
+<Interchange xmlns="http://www.rssbus.com" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <FunctionalGroup>
+        <TransactionSet>
+            <TX-00401-214 type="TransactionSet">
+                <Meta>
+                    <!--Transaction Set Identifier Code-->
+                    <ST01>                        <!--Transportation Carrier Shipment Status Message-->214</ST01>
+                    <!--Transaction Set Control Number-->
+                    <ST02>0051</ST02>
+                </Meta>
+                <!--Beginning Segment for Transportation Carrier Shipment Status Message-->
+                <B10 type="Segment">
+                    <!--Reference Identification-->
+                    <B1001>081017743</B1001>
+                    <!--Shipment Identification Number-->
+                    <B1002>081017743</B1002>
+                    <!--Standard Carrier Alpha Code-->
+                    <B1003>PAAF</B1003>
+                    <!--Inquiry Request Number-->
+                    <B1004 xsi:nil="true"/>
+                    <!--Reference Identification Qualifier-->
+                    <B1005/>
+                    <!--Reference Identification-->
+                    <B1006 xsi:nil="true"/>
+                    <!--Yes/No Condition or Response Code-->
+                    <B1007>                        <!--No-->N</B1007>
+                </B10>
+                <!--Business Instructions and Reference Number-->
+                <L11 type="Segment">
+                    <!--Reference Identification-->
+                    <L1101>AB1PILOT13</L1101>
+                    <!--Reference Identification Qualifier-->
+                    <L1102>                        <!--Purchase Order Number-->PO</L1102>
+                </L11>
+                <!--Business Instructions and Reference Number-->
+                <L11 type="Segment">
+                    <!--Reference Identification-->
+                    <L1101>retailername</L1101>
+                    <!--Reference Identification Qualifier-->
+                    <L1102>                        <!--Buyer Identification-->YD</L1102>
+                </L11>
+                <!--Business Instructions and Reference Number-->
+                <L11 type="Segment">
+                    <!--Reference Identification-->
+                    <L1101>adouglas</L1101>
+                    <!--Reference Identification Qualifier-->
+                    <L1102>                        <!--Vendor ID Number-->VR</L1102>
+                </L11>
+                <N1Loop1 type="Loop">
+                    <!--Name-->
+                    <N1 type="Segment">
+                        <!--Entity Identifier Code-->
+                        <N101>                            <!--Consignee-->CN</N101>
+                        <!--Name-->
+                        <N102>ABC COMPANY NAME</N102>
+                    </N1>
+                    <!--Address Information-->
+                    <N3 type="Segment">
+                        <!--Address Information-->
+                        <N301>15 WEST LOOP SOUTH</N301>
+                    </N3>
+                    <!--Geographic Location-->
+                    <N4 type="Segment">
+                        <!--City Name-->
+                        <N401>HOUSTON</N401>
+                        <!--State or Province Code-->
+                        <N402>TX</N402>
+                        <!--Postal Code-->
+                        <N403>77027</N403>
+                        <!--Country Code-->
+                        <N404>US</N404>
+                    </N4>
+                    <!--Contact-->
+                    <G61 type="Segment">
+                        <!--Contact Function Code-->
+                        <G6101>                            <!--Agent-->AG</G6101>
+                        <!--Name-->
+                        <G6102>Company Name</G6102>
+                        <!--Communication Number Qualifier-->
+                        <G6103>                            <!--Telephone-->TE</G6103>
+                        <!--Communication Number-->
+                        <G6104>1-800-123456</G6104>
+                    </G61>
+                </N1Loop1>
+                <LXLoop1 type="Loop">
+                    <!--Assigned Number-->
+                    <LX type="Segment">
+                        <!--Assigned Number-->
+                        <LX01>1</LX01>
+                    </LX>
+                    <AT7Loop1 type="Loop">
+                        <!--Shipment Status Details-->
+                        <AT7 type="Segment">
+                            <!--Shipment Status Code-->
+                            <AT701/>
+                            <!--Shipment Status or Appointment Reason Code-->
+                            <AT702/>
+                            <!--Shipment Appointment Status Code-->
+                            <AT703>                                <!--Delivery Appointment Secured on This Date and/or Time-->X9</AT703>
+                            <!--Shipment Status or Appointment Reason Code-->
+                            <AT704>NA</AT704>
+                            <!--Date-->
+                            <AT705>20180401</AT705>
+                            <!--Time-->
+                            <AT706>104100</AT706>
+                            <!--Time Code-->
+                            <AT707>                                <!--Local Time-->LT</AT707>
+                        </AT7>
+                    </AT7Loop1>
+                </LXLoop1>
+            </TX-00401-214>
+        </TransactionSet>
+    </FunctionalGroup>
+</Interchange>

@@ -1,0 +1,223 @@
+<Interchange Delimiters=":*. ^~" xmlns="http://www.rssbus.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FunctionalGroup>
+		<TransactionSet>
+			<TX-00401-220 type="TransactionSet">
+				<Meta>
+					<!--Transaction Set Identifier Code-->
+					<ST01><!--Logistics Service Response-->220</ST01>
+					<!--Transaction Set Control Number-->
+					<ST02>0001</ST02>
+				</Meta>
+				<!--Beginning Segment for Logistics Services-->
+				<B9 type="Segment">
+					<!--Reference Identification-->
+					<B901>123456789</B901>
+					<!--Transaction Set Purpose Code-->
+					<B902><!--Approval-->54</B902>
+				</B9>
+				<!--Service Request-->
+				<B9A type="Segment">
+					<!--Service Request Code-->
+					<B9A01><!--Contracted Services-->CT</B9A01>
+				</B9A>
+				<!--Business Instructions and Reference Number-->
+				<L11 type="Segment">
+					<!--Reference Identification-->
+					<L1101>6781461974</L1101>
+					<!--Reference Identification Qualifier-->
+					<L1102><!--Purchase Order Number-->4F</L1102>
+				</L11>
+				<!--Business Instructions and Reference Number-->
+				<L11 type="Segment">
+					<!--Reference Identification-->
+					<L1101>100540026</L1101>
+					<!--Reference Identification Qualifier-->
+					<L1102><!--Internal Control Number-->CG</L1102>
+				</L11>
+				<!--Business Instructions and Reference Number-->
+				<L11 type="Segment">
+					<!--Reference Identification-->
+					<L1101>7324983294</L1101>
+					<!--Reference Identification Qualifier-->
+					<L1102><!--Vendor ID Number-->PO</L1102>
+				</L11>
+				<!--Business Instructions and Reference Number-->
+				<L11 type="Segment">
+					<!--Reference Identification-->
+					<L1101></L1101>
+					<!--Reference Identification Qualifier-->
+					<L1102><!--Buyer Identification-->SCA</L1102>
+				</L11>
+				<!--Business Instructions and Reference Number-->
+				<L11 type="Segment">
+					<!--Reference Identification-->
+					<L1101>13334634</L1101>
+					<!--Reference Identification Qualifier-->
+					<L1102><!--Waybill Number-->VR</L1102>
+				</L11>
+				<L11 type="Segment">
+					<!--Reference Identification-->
+					<L1101>581479312</L1101>
+					<!--Reference Identification Qualifier-->
+					<L1102><!--Vendor ID Number-->WY</L1102>
+				</L11>
+				<!--Business Instructions and Reference Number-->
+				<L11 type="Segment">
+					<!--Reference Identification-->
+					<L1101>7642877879</L1101>
+					<!--Reference Identification Qualifier-->
+					<L1102><!--Buyer Identification-->X9</L1102>
+				</L11>
+				<!--Business Instructions and Reference Number-->
+				<L11 type="Segment">
+					<!--Reference Identification-->
+					<L1101>13334634</L1101>
+					<!--Reference Identification Qualifier-->
+					<L1102><!--Waybill Number-->YD</L1102>
+				</L11>
+				<!--Date/Time-->
+				<G62 type="Segment">
+					<!--Date Qualifier-->
+					<G6201><!--Acceptance-->BT</G6201>
+					<!--Date-->
+					<G6202>20190307</G6202>
+				</G62>
+				<!--Note/Special Instruction-->
+				<NTE type="Segment">
+					<!--Note Reference Code-->
+					<NTE01><!--Problem Description-->DEP</NTE01>
+					<!--Description-->
+					<NTE02>invalid_address </NTE02>
+				</NTE>
+				<S5Loop1 type="Loop">
+					<!--Stop Off Details-->
+					<S5 type="Segment">
+						<!--Stop Sequence Number-->
+						<S501>1</S501>
+						<!--Stop Reason Code-->
+						<S502><!--Advance Loading-->AL</S502>
+					</S5>
+					<N1Loop1 type="Loop">
+						<!--Name-->
+						<N1 type="Segment">
+							<!--Entity Identifier Code-->
+							<N101><!--Consignee-->CN</N101>
+							<!--Name-->
+							<N102>CommerceHub</N102>
+						</N1>
+						<!--Additional Name Information-->
+						<N2 type="Segment">
+							<!--Name-->
+							<N201>JENNIFER</N201>
+							<!--Name-->
+							<N202>LEWIS </N202>
+						</N2>
+						<!--Address Information-->
+						<N3 type="Segment">
+							<!--Address Information-->
+							<N301>225 WEST SIDE DRIVE</N301>
+							<!--Address Information-->
+							<N302>APT. 25 </N302>
+						</N3>
+						<!--Geographic Location-->
+						<N4 type="Segment">
+							<!--City Name-->
+							<N401>AUSTIN</N401>
+							<!--State or Province Code-->
+							<N402>TEXAS</N402>
+							<!--Postal Code-->
+							<N403>34544</N403>
+							<!--Country Code-->
+							<N404>US </N404>
+						</N4>
+						<!--Administrative Communications Contact-->
+						<PER type="Segment">
+							<!--Contact Function Code-->
+							<PER01><!--Agent-->AG</PER01>
+							<!--Name-->
+							<PER02>WILLIAM SMITH</PER02>
+							<!--Communication Number Qualifier-->
+							<PER03><!--Telephone-->TE</PER03>
+							<!--Communication Number-->
+							<PER04>555-555-5555 </PER04>
+						</PER>
+					</N1Loop1>
+					<N1Loop1 type="Loop">
+						<!--Name-->
+						<N1 type="Segment">
+							<!--Entity Identifier Code-->
+							<N101><!--Shipper-->SH</N101>
+							<!--Name-->
+							<N102>CommerceHub</N102>
+						</N1>
+						<!--Additional Name Information-->
+						<N2 type="Segment">
+							<!--Name-->
+							<N201>JENNY</N201>
+							<!--Name-->
+							<N202>LEW</N202>
+						</N2>
+						<!--Address Information-->
+						<N3 type="Segment">
+							<!--Address Information-->
+							<N301>225 SOUTH SIDE DRIVE</N301>
+							<!--Address Information-->
+							<N302>APT. 25 </N302>
+						</N3>
+						<!--Geographic Location-->
+						<N4 type="Segment">
+							<!--City Name-->
+							<N401>AUSTIN</N401>
+							<!--State or Province Code-->
+							<N402>Ohio</N402>
+							<!--Postal Code-->
+							<N403>34544</N403>
+							<!--Country Code-->
+							<N404>US </N404>
+						</N4>
+						<!--Administrative Communications Contact-->
+						<PER type="Segment">
+							<!--Contact Function Code-->
+							<PER01><!--Agent-->AG</PER01>
+							<!--Name-->
+							<PER02>WILLIAM SMITH</PER02>
+							<!--Communication Number Qualifier-->
+							<PER03><!--Telephone-->TE</PER03>
+							<!--Communication Number-->
+							<PER04>555-555-5555 </PER04>
+						</PER>
+					</N1Loop1>
+					<LXLoop1 type="Loop">
+						<!--Assigned Number-->
+						<LX type="Segment">
+							<!--Assigned Number-->
+							<LX01>1</LX01>
+						</LX>
+						<!--Marks and Numbers-->
+						<MAN type="Segment">
+							<!--Marks and Numbers Qualifier-->
+							<MAN01><!--Line Item Only-->L</MAN01>
+							<!--Marks and Numbers-->
+							<MAN02>000000133631194</MAN02>
+							<!--Marks and Numbers-->
+							<MAN03>82909</MAN03>
+							<!--Marks and Numbers Qualifier-->
+							<MAN04><!--Mutually Defined-->ZZ</MAN04>
+							<!--Marks and Numbers-->
+							<MAN05>13</MAN05>
+							<!--Marks and Numbers-->
+							<MAN06>82909</MAN06>
+						</MAN>
+						<!--Business Instructions and Reference Number-->
+						<L11 type="Segment">
+							<!--Reference Identification-->
+							<L1101>000000133631194</L1101>
+							<!--Reference Identification Qualifier-->
+							<L1102><!--Purchase Order Number-->PO</L1102>
+						</L11>
+					</LXLoop1>
+				</S5Loop1>
+			</TX-00401-220>
+		</TransactionSet>
+	</FunctionalGroup>
+</Interchange>

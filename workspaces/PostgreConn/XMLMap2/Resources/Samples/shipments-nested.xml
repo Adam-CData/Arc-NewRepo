@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+  <Ship shipId="SH-1001" vessel="Pacific Voyager" departurePort="Los Angeles" arrivalPort="Yokohama">
+    <Order orderNo="SO-50001" customer="Northwind Traders" orderDate="2026-01-05">
+      <Load loadId="LD-001" sku="WID-100" description="Standard Widget" quantity="25" weightKg="125.0"/>
+      <Load loadId="LD-002" sku="SEN-310" description="Temperature Sensor" quantity="40" weightKg="32.0"/>
+    </Order>
+    <Order orderNo="SO-50002" customer="Contoso Ltd" orderDate="2026-01-09">
+      <Load loadId="LD-003" sku="GAD-220" description="Smart Gadget Pro" quantity="10" weightKg="18.5"/>
+    </Order>
+  </Ship>
+  <Ship shipId="SH-1002" vessel="Atlantic Star" departurePort="Hamburg" arrivalPort="New York">
+    <Order orderNo="SO-50003" customer="Wide World Importers" orderDate="2026-02-11">
+      <Load loadId="LD-004" sku="CON-400" description="Industrial Controller" quantity="6" weightKg="54.0"/>
+      <Load loadId="LD-005" sku="PSU-610" description="24V Power Supply" quantity="20" weightKg="30.0"/>
+    </Order>
+  </Ship>
+</Items>

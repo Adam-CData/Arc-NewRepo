@@ -1,0 +1,172 @@
+{
+  "version": 2,
+  "ports": [
+    {
+      "connectorId": "MySQL1",
+      "connectorType": "MySQLV2",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 444.99715999815965,
+          "posY": -87.27915676886019,
+          "width": 295
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "PostgreSQL1",
+      "connectorType": "PostgreSQLV2",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 559,
+          "posY": 516,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "SQLServer1",
+      "connectorType": "SQLServerV3",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 1269,
+          "posY": 54,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "Finalize1",
+      "connectorType": "Finalize",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 2570.674856154662,
+          "posY": 491.3586576810628,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "File1",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 2148.515508331515,
+          "posY": 428.1332466096102,
+          "width": 320
+        },
+        {
+          "style": "receiver",
+          "posX": 2645.1265963531887,
+          "posY": 184.5634424637806,
+          "width": 295
+        }
+      ],
+      "connections": [
+        "Finalize1"
+      ]
+    },
+    {
+      "connectorId": "AS21",
+      "connectorType": "AS2",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 240,
+          "posY": 229,
+          "width": 295
+        },
+        {
+          "style": "receiver",
+          "posX": 1067,
+          "posY": 539,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "XMLMap1",
+      "connectorType": "XMLMap",
+      "nodes": [
+        {
+          "posX": 1766.9415371182504,
+          "posY": 266.9302554675652,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "FlatFile1",
+      "connectorType": "FlatFile",
+      "nodes": [
+        {
+          "posX": 1780.5338839987612,
+          "posY": 37.333357562729724,
+          "width": 295
+        }
+      ],
+      "connections": [
+        "XMLMap2"
+      ]
+    },
+    {
+      "connectorId": "XMLMap2",
+      "connectorType": "XMLMap",
+      "nodes": [
+        {
+          "posX": 2239.4553278712597,
+          "posY": 50.09214093104603,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "XMLMap3",
+      "connectorType": "XMLMap",
+      "nodes": [
+        {
+          "posX": 2716.171268460994,
+          "posY": -17.06293755855944,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    }
+  ],
+  "views": [
+    {
+      "name": "Default",
+      "zoom": 1,
+      "zoomOrigin": "50% 50%",
+      "posX": 0,
+      "posY": 0,
+      "snapshot": ""
+    }
+  ],
+  "apis": [
+  ],
+  "notes": [
+  ],
+  "snapshot": {
+    "file": "file:\/\/flow.png"
+  }
+}

@@ -1,0 +1,20 @@
+<!--
+NOTE: The following attributes can be included in the table XML:
+selectQuery="SELECT * FROM XXX" - This can be used to specify a custom query to execute for this mapping.
+skipProcessedRows="true" - When true, the application will only process rows one time.
+-->
+
+<Items>
+    <ARC_TestEmployee table="`public`.`ARC_TestEmployee`" allColumns="true" selectQuery="SELECT * FROM `public`.`ARC_TestEmployee` WHERE `EmployeeID` &lt;= 3">
+        <EmployeeID type="integer" key="true" />
+        <Department />
+        <Email />
+        <FirstName />
+        <HireDate type="date" />
+        <IsActive type="boolean" />
+        <JobTitle />
+        <LastName />
+        <Phone />
+        <Salary type="decimal" />
+    </ARC_TestEmployee>
+</Items>

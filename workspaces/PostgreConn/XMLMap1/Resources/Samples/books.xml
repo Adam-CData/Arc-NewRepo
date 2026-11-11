@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <book id="bk101">
+    <title>The Pragmatic Programmer</title>
+    <author>Andrew Hunt</author>
+    <year>1999</year>
+    <price currency="USD">42.95</price>
+  </book>
+  <book id="bk102">
+    <title>Dune</title>
+    <author>Frank Herbert</author>
+    <year>1965</year>
+    <price currency="USD">9.99</price>
+  </book>
+  <book id="bk103">
+    <title>Clean Code</title>
+    <author>Robert C. Martin</author>
+    <year>2008</year>
+    <price currency="USD">37.50</price>
+  </book>
+</library>

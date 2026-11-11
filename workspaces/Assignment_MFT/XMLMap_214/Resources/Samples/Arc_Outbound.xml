@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+	<Arc_Outbound>
+		<Tracking>566946</Tracking>
+		<Status_date>03/26/2021</Status_date>
+		<Status_Time>14:01:17</Status_Time>
+		<Forward_Shipment>SA</Forward_Shipment>
+		<PO_Status>NEW</PO_Status>
+		<SCAC>TWMC</SCAC>
+		<Service_Level>THRESHOLD</Service_Level>
+		<Order_Date>03/24/2021</Order_Date>
+		<Shipper>ShipperName1</Shipper>
+		<Shipper_Address>123 Street</Shipper_Address>
+		<Shipper_City>Waterloo</Shipper_City>
+		<Shipper_State>ON</Shipper_State>
+		<Shipper_Zip>N2V1Z4</Shipper_Zip>
+		<Shipper_Country>Canada</Shipper_Country>
+		<Shipper_Telephone_Number>1234424</Shipper_Telephone_Number>
+		<Delivery_Agent>Delivery Agent1</Delivery_Agent>
+		<Delivery_Agent_Telephone_Number>1234424</Delivery_Agent_Telephone_Number>
+		<Customer_Name>John Smith</Customer_Name>
+		<Customer_Address>123 Donald St</Customer_Address>
+		<Customer_City>Toronto</Customer_City>
+		<Customer_State>ON</Customer_State>
+		<Customer_Zip>N8H4S6</Customer_Zip>
+		<Customer_Country>CA</Customer_Country>
+		<Item_Name>ROCKVALE PAINTED WHITE 48 BLANC VANITE 48 PO                      ROCKVALE 8V313V48</Item_Name>
+		<Weight>302</Weight>
+		<Total_Volume>31.4</Total_Volume>
+		<Reference_Number>N/A</Reference_Number>
+		<PO_Number>SA~00894004374597</PO_Number>
+		<Current_Status>NEW : New Order Created - 3/26/2021</Current_Status>
+		<Shipped_Date></Shipped_Date>
+		<Delivery_Date></Delivery_Date>
+		<CHUB_Code>OO_NS</CHUB_Code>
+	</Arc_Outbound>
+</Items>

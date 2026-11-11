@@ -1,0 +1,28 @@
+<!--
+NOTE: The following attributes can be included in the table XML:
+selectQuery="SELECT * FROM XXX" - This can be used to specify a custom query to execute for this mapping.
+skipProcessedRows="true" - When true, the application will only process rows one time.
+-->
+
+<Items>
+    <availability_groups table="`sys`.`availability_groups`">
+        <automated_backup_preference type="tinyint" />
+        <automated_backup_preference_desc />
+        <basic_features type="boolean" />
+        <cluster_type type="tinyint" />
+        <cluster_type_desc />
+        <db_failover type="boolean" />
+        <dtc_support type="boolean" />
+        <failure_condition_level type="integer" />
+        <group_id type="uuid" />
+        <health_check_timeout type="integer" />
+        <is_contained type="boolean" />
+        <is_distributed type="boolean" />
+        <name />
+        <required_synchronized_secondaries_to_commit type="integer" />
+        <resource_group_id />
+        <resource_id />
+        <sequence_number type="bigint" />
+        <version type="smallint" />
+    </availability_groups>
+</Items>

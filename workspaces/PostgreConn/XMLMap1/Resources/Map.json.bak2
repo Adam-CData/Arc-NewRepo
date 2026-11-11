@@ -1,0 +1,81 @@
+[
+  {
+    "name": "invoice",
+    "foreach": "/library",
+    "attributes": [
+      {
+        "name": "number",
+        "value": "INV-2026-0142"
+      },
+      {
+        "name": "date",
+        "value": "2026-03-15"
+      }
+    ],
+    "children": [
+      {
+        "name": "seller",
+        "value": "Acme Hardware Co."
+      },
+      {
+        "name": "buyer",
+        "value": "Contoso Ltd"
+      },
+      {
+        "name": "items",
+        "children": [
+          {
+            "name": "item",
+            "value": {
+              "const": ""
+            },
+            "attributes": [
+              {
+                "name": "sku",
+                "value": "WID-100"
+              },
+              {
+                "name": "quantity",
+                "value": "75"
+              },
+              {
+                "name": "unitPrice",
+                "value": "12.50"
+              }
+            ]
+          },
+          {
+            "name": "item",
+            "value": {
+              "const": ""
+            },
+            "attributes": [
+              {
+                "name": "sku",
+                "value": "GAD-220"
+              },
+              {
+                "name": "quantity",
+                "value": "10"
+              },
+              {
+                "name": "unitPrice",
+                "value": "49.99"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "total",
+        "value": "1437.40",
+        "attributes": [
+          {
+            "name": "currency",
+            "value": "USD"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice number="INV-2026-0142" date="2026-03-15">
+  <seller>Acme Hardware Co.</seller>
+  <buyer>Contoso Ltd</buyer>
+  <items>
+    <item sku="WID-100" quantity="75" unitPrice="12.50"/>
+    <item sku="GAD-220" quantity="10" unitPrice="49.99"/>
+  </items>
+  <total currency="USD">1437.40</total>
+</invoice>

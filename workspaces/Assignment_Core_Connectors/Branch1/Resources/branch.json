@@ -1,0 +1,21 @@
+{
+  "left": {
+    "custom": "[Filename]",
+    "id": "filename"
+  },
+  "rules": [
+    {
+      "condition": {
+        "operator": "=~",
+        "params": [
+          {
+            "ref": "filename"
+          },
+          "*.json"
+        ]
+      },
+      "value": "matches%20glob&%20%5B*.json%5D&1"
+    }
+  ],
+  "else": "Fallback to"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "mailErrorLog",
+    "foreach": "/mailErrorLog",
+    "children": [
+      {
+        "name": "detailNo",
+        "value": {
+          "xpath": "detailNo"
+        }
+      },
+      {
+        "name": "createdDate",
+        "value": {
+          "xpath": "mailSendDate"
+        }
+      },
+      {
+        "name": "createdBy",
+        "value": {
+          "xpath": "createdBy"
+        }
+      },
+      {
+        "name": "processName",
+        "value": {
+          "xpath": "processName"
+        }
+      },
+      {
+        "name": "mailSendDate",
+        "value": {
+          "xpath": "createdDate"
+        }
+      }
+    ]
+  }
+]

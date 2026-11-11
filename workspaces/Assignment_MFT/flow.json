@@ -1,0 +1,331 @@
+{
+  "version": 2,
+  "ports": [
+    {
+      "connectorId": "FTPServer1",
+      "connectorType": "FTPServer",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 3243.7311709920364,
+          "posY": 361.4841032904035,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "File24"
+      ]
+    },
+    {
+      "connectorId": "AS41",
+      "connectorType": "AS4V2",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 1593.8536514505918,
+          "posY": 858.757745458197,
+          "width": 320
+        },
+        {
+          "style": "receiver",
+          "posX": 950.9571340599086,
+          "posY": 1180.561189335933,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "File22"
+      ]
+    },
+    {
+      "connectorId": "EDIFACT1",
+      "connectorType": "EDIFACT",
+      "nodes": [
+        {
+          "posX": 2059.071863086114,
+          "posY": 73.01175235533074,
+          "width": 295
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "File26",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 3722.5765632139587,
+          "posY": 1481.0321289225608,
+          "width": 295
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "XMLMap_214",
+      "connectorType": "XMLMap",
+      "nodes": [
+        {
+          "posX": 4777.048985588234,
+          "posY": 1301.278681294883,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "X12_Outbound"
+      ]
+    },
+    {
+      "connectorId": "File19",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 441.5327693333303,
+          "posY": 181.49175891873904,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "AS22"
+      ]
+    },
+    {
+      "connectorId": "AS2_toPartner",
+      "connectorType": "AS2",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 4425.805021283391,
+          "posY": 1862.1978279174648,
+          "width": 295
+        },
+        {
+          "style": "receiver",
+          "posX": 6098.97436493953,
+          "posY": 1506.1162724537528,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "File20",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 1834.6832319891198,
+          "posY": 490.31130735690635,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "File21",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 439.4253213664048,
+          "posY": 902.8289746562737,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "AS41"
+      ]
+    },
+    {
+      "connectorId": "File22",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 2045.8502143202409,
+          "posY": 924.6750373340303,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "File23",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 2930.452572967473,
+          "posY": 46.05117831963821,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "FTP1"
+      ]
+    },
+    {
+      "connectorId": "File24",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 3833.6206365461076,
+          "posY": 345.4417435599687,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "File25",
+      "connectorType": "File",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 2766.0415408487584,
+          "posY": 1020.646044193976,
+          "width": 295
+        }
+      ],
+      "connections": [
+        "GISB1"
+      ]
+    },
+    {
+      "connectorId": "AS25",
+      "connectorType": "AS2",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 4139.506459156053,
+          "posY": 700.803507355723,
+          "width": 320
+        },
+        {
+          "style": "receiver",
+          "posX": 4533.513609779588,
+          "posY": 742.7534529909797,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    },
+    {
+      "connectorId": "X12_Outbound",
+      "connectorType": "X12",
+      "nodes": [
+        {
+          "posX": 5437.663786510304,
+          "posY": 1244.8999613610104,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "AS2_toPartner"
+      ]
+    },
+    {
+      "connectorId": "GISB1",
+      "connectorType": "GISB",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 3094.8831487655393,
+          "posY": 1423.0249484378903,
+          "width": 320
+        },
+        {
+          "style": "receiver",
+          "posX": 3335.9532610850947,
+          "posY": 1111.2082870967743,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "File26"
+      ]
+    },
+    {
+      "connectorId": "CSV_Outbound",
+      "connectorType": "CSV",
+      "nodes": [
+        {
+          "posX": 4165.805021283391,
+          "posY": 1312.1978279174648,
+          "width": 295
+        }
+      ],
+      "connections": [
+        "XMLMap_214"
+      ]
+    },
+    {
+      "connectorId": "AS22",
+      "connectorType": "AS2",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 1290.0760837578794,
+          "posY": 177.33901839137576,
+          "width": 320
+        },
+        {
+          "style": "receiver",
+          "posX": 1009.9988901720812,
+          "posY": 559.0657508930228,
+          "width": 320
+        }
+      ],
+      "connections": [
+        "File20"
+      ]
+    },
+    {
+      "connectorId": "FTP1",
+      "connectorType": "FTP",
+      "nodes": [
+        {
+          "style": "receiver",
+          "posX": 3466.430964565432,
+          "posY": -36.44540139758203,
+          "width": 320
+        },
+        {
+          "style": "sender",
+          "posX": 1871.6790350407537,
+          "posY": 1931.5397939270774,
+          "width": 320
+        }
+      ],
+      "connections": [
+      ]
+    }
+  ],
+  "views": [
+    {
+      "name": "Default",
+      "zoom": 1,
+      "zoomOrigin": "50% 50%",
+      "posX": 0,
+      "posY": 0,
+      "snapshot": ""
+    }
+  ],
+  "apis": [
+  ],
+  "notes": [
+  ],
+  "snapshot": {
+    "file": "file:\/\/flow.png"
+  }
+}

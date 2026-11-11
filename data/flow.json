@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "ports": [
+    {
+      "connectorId": "AS24",
+      "connectorType": "AS2",
+      "nodes": [
+        {
+          "style": "sender",
+          "posX": 545,
+          "posY": 231,
+          "width": 295
+        },
+        {
+          "style": "receiver",
+          "posX": 945,
+          "posY": 231,
+          "width": 295
+        }
+      ],
+      "connections": [
+      ]
+    }
+  ],
+  "views": [
+  ],
+  "apis": [
+  ],
+  "notes": [
+  ],
+  "snapshot": {
+    "file": "file:\/\/flow.png"
+  }
+}
